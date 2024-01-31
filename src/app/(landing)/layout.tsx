@@ -11,7 +11,7 @@ export default function LandingLayout({
     style={{ backgroundImage: `url(./anton.jpg)` }}
   >
 
-    <div className="absolute inset-0  "/>
+    {/* <div className="absolute inset-0  "/> */}
     <main className="relative h-full ">
       {children}
     </main>

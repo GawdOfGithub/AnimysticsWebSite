@@ -34,22 +34,22 @@ const routes = [
     {
       label: "Events",
       icon: <CalendarPlus2 className="h-4 w-4 mr-2" />,
-      href: `/events`,
+      href: `/Events`,
     },
     {
       label: "Artwork",
       icon: <Palette className="h-4 w-4 mr-2" />,
-      href: `/artwork`,
+      href: `/Artwork`,
     },
     {
       label: "Our Team",
       icon: <Users className="h-4 w-4 mr-2" />,
-      href: `/team`,
+      href: `/Team`,
     },
     {
       label: "Contact us",
       icon: <Phone className="h-4 w-4 mr-2" />,
-      href: `/contact`,
+      href: `/ContactUs`,
     },
   ];
   const onClick = (href:string)=>{
